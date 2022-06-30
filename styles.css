@@ -1,0 +1,10 @@
+body {
+  background-image: url(/img/bg.jpg);
+  font-family: "Arima", cursive;
+}
+
+.content {
+  background-color: rgb(76, 76, 76);
+  color: black;
+  opacity: 80%;
+}
