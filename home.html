@@ -16,7 +16,7 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
-    <link rel="icon" type="image/x-icon" href="img/icon.jpg" />
+    <link rel="icon" type="image/x-icon" href="img/icon.png" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,11 +28,11 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark bg-opacity-75 h2">
+    <nav class="navbar navbar-expand-lg bg-dark bg-opacity-75 fw-bold h2">
       <div class="container-fluid">
         <span class="text-center d-block d-lg-none">Home</span>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler btn-close-white"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -47,6 +47,7 @@
             <li class="nav-item">
               <a
                 class="nav-link d-none d-lg-flex"
+                style="color: white"
                 href="/lab-01-mon6996/home.html"
                 >Home</a
               >
@@ -66,53 +67,98 @@
 
     <!-- introduce -->
     <div
-      class="content mx-auto mt-5 p-3 rounded-3 text-center"
-      style="max-width: 85%"
+      class="content d-flex mx-auto mt-5 p-3 rounded-3"
+      style="max-width: 80%"
     >
-      <!-- <img
+      <img
         src="img/profile.jpg"
-        width="200"
-        height="200"
+        width="150"
+        height="150"
         style="object-fit: cover"
-        class="rounded-circle"
-      /> -->
-      <!-- <div class="m-auto text-center"> -->
-      <p class="fw-bold h3">Thanaporn Chanchanayothin</p>
-      <p class="h4">
-        My name is Thanaporn. I'm studying Computer Engineering at Chiang Mai
-        University.
-      </p>
-      <!-- </div> -->
+        class="my-auto rounded-circle"
+      />
+      <div class="mx-auto ms-3 h5">
+        <p class="fw-bold h3 mb-4">Thanaporn Chanchanayothin</p>
+        <p>Birth Date : Oct 2, 2000</p>
+        <p>
+          2016-2018 : Sci-Math, Rajavinit Mathayom School, Bangkok, Thailand
+        </p>
+        <p>
+          2021-present : Computer Engineering, Chiang Mai University, Chiang
+          Mai, Thailand
+        </p>
+      </div>
     </div>
 
-    <!-- skill -->
-    <p class="mx-auto mt-5 p-3 fw-bold h3 text-center">My skill</p>
+    <!-- hobby -->
+    <p class="mx-auto mt-5 p-3 fw-bold h3 text-center text-black">Hobbies</p>
     <!-- 1 -->
-    <div class="content card mx-auto mb-3" style="max-width: 85%">
+    <div class="content card mx-auto mb-3" style="max-width: 80%">
       <div class="d-flex">
-        <img src="img/black.jpg" class="img-fluid rounded-start" />
+        <img
+          src="img/game.png"
+          class="img-fluid rounded-start"
+          width="150"
+          height="150"
+        />
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+          <h5 class="card-title fw-bold h4">Game</h5>
+          <p class="card-text h5">
+            I like game, steamer and youtuber. That is happiness for my life.
           </p>
         </div>
       </div>
     </div>
     <!-- 2 -->
-    <div class="content card mx-auto mb-3" style="max-width: 85%">
+    <div class="content card mx-auto mb-3" style="max-width: 80%">
       <div class="d-flex">
         <div class="card-body text-end">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+          <h5 class="card-title fw-bold h4">Anime</h5>
+          <p class="card-text h5">
+            I like anime and manga because my brother like to invite me to watch
+            an anime. It is happiness like a game.
           </p>
         </div>
-        <img src="img/black.jpg" class="img-fluid rounded-end" />
+        <img
+          src="img/anime.jpg"
+          class="img-fluid rounded-end"
+          width="150"
+          height="150"
+        />
       </div>
     </div>
-    <!-- 3 -->
+
+    <!-- skill -->
+    <p class="mx-auto mt-5 p-3 fw-bold h3 text-center text-black">Skills</p>
+    <!-- 1 -->
+    <div class="content card mx-auto mb-3" style="max-width: 80%">
+      <div class="d-flex">
+        <img
+          src="img/C++_logo.png"
+          class="img-fluid rounded-start"
+          width="150"
+          height="150"
+        />
+        <div class="card-body">
+          <h5 class="card-title fw-bold h4">C++</h5>
+          <p class="card-text h5">I made game by using C++.</p>
+        </div>
+      </div>
+    </div>
+    <!-- 2 -->
+    <div class="content card mx-auto mb-3" style="max-width: 80%">
+      <div class="d-flex">
+        <div class="card-body text-end">
+          <h5 class="card-title fw-bold h4"></h5>
+          <p class="card-text h5"></p>
+        </div>
+        <img
+          src="img/black.jpg"
+          class="img-fluid rounded-end"
+          width="150"
+          height="150"
+        />
+      </div>
+    </div>
   </body>
 </html>
